@@ -15,7 +15,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Potato extends JavaPlugin {
    
-    public static String CHAT_TAG = "§8[§5EmpireMC§8]";
+    public static String CHAT_TAG = "§8[§5Tokens§8]";
       
     public static void sendMessage(Player player, String message){
         player.sendMessage(CHAT_TAG + message);

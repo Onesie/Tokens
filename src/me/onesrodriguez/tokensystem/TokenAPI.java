@@ -10,7 +10,9 @@ public class TokenAPI {
     
     public synchronized static void openConnection(){
         try{
-            Potato.connection = DriverManager.getConnection("jdbc:mysql://sql.onesrodriguez.co.uk:3306/empiretokens", "alex", "Nassela55");
+            String username = "REPLACETHISWITHYOURUSERNAME"; 
+            String password = "REPLACETHISWITHYOURPASSWORD"; 
+            Potato.connection = DriverManager.getConnection("jdbc:mysql://sql.onesrodriguez.co.uk:3306/empiretokens", "username", "password");
         }catch(Exception e){
             e.printStackTrace();
         }
