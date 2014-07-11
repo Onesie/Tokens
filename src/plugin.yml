@@ -1,0 +1,9 @@
+name: TokenSystem
+main: me.onesrodriguez.tokensystem.Potato
+author: OnesRodriguez
+version: 1.1
+commands:
+    addtokens:
+        usage: /addtokens <number>
+        description: Adds tokens.
+        aliases: [at, tokensadd, tokenadd, addtoken]
